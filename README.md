@@ -48,15 +48,16 @@ _Files Preview, This is a very very special, because Windows 10 needs revamped f
 
 
 ## Windows Terminal 🖥
-### Oh-my-posh en PowerShell 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para personalizar powershell en tu terminal_
+### Oh-my-posh on PowerShell 🔧
 
-_Una ve descargados la terminal de windows y este repositorio copia las fuentes de las carpetas comprimidas(Obvio descomprime primero) en Fonts de windows recuerda Cascadia Code PL para powershell y DroidSansMono para WSL_
+_A series of step-by-step examples that tells you what to run to customize PowerShell on your Terminal_
 
-<img src=/Capturas/Fonts.png alt="Fonts"/>
+_Once downloaded the Windows Terminal and this repository copies the fonts from the compressed folders (Obvious unzips first) in Windows Fonts remembers Cascadia Code PL for PowerShell and DroidSansMono for WSL_
 
-_Despues instala Oh-my-posh en PowerShell, con los siguientes comandos; recuerda declinar por confiar en la fuente_
+<img src=/Captures/Fonts.png alt="Fonts"/>
+
+_Then install Oh-my-posh in PowerShell, with the following commands; remember to decline for trusting the source_
 
 ```
 Install-Module posh-git -Scope CurrentUser
@@ -65,33 +66,34 @@ Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 ```
 
-_Importa los módulos a tu perfil de PowerShell, SUSTITUYE adria por tu usuario_
+_Import the modules into your PowerShell profile_
 
 ```
 Import-Module posh-git
 Import-Module oh-my-posh
 Set-Theme Paradox
 ```
-<img src=/Capturas/PROFILE$.png alt="ProfilePS"/>
+<img src=/Captures/PROFILE$.png alt="ProfilePS"/>
 
-_Corre una shell de PowerShell como administrador, para quitar las restricciones a los módulos_
+_Run a PowerShell Terminal as an administrator, to remove restrictions on modules_
 
 ```
 Set Execution-Policy Unrestricted
 ```
 
-<img src=/Capturas/Set.png alt="Set"/>
+<img src=/Captures/Set.png alt="Set"/>
 
-_En la carpeta Windows-Terminal te dejo dos secciones de archivos json, uno para la configuración completa de windows terminal y otro por temas de colores, por cada esquema de color anexo una toma como ejemplo, en gustos se rompen generos, es mi personalización no tiene porque gustarte, te invito a que copies los perfiles que necesites y posteriormente jugar con el esquema de colores_
+_In the Windows-Terminal folder I leave you two sections of json files, one for the complete configuration of terminal windows and one for color themes, for each color scheme attached a shot as an example, in tastes are broken genres, it is my customization does not have to like you, I invite you to copy the profiles you need and then play with the color scheme_
 
-<img src=/Capturas/ConfPS.png alt="ConfigPS"/>
+<img src=/Captures/ConfPS.png alt="ConfigPS"/>
 
-<img src=/Capturas/esquemasPS.png alt="SchemesPS"/>
+<img src=/Captures/esquemasPS.png alt="SchemesPS"/>
 
-_Si todo salio bien, el resultado es..._ 
+_If all went well, the result is..._ 
 
-<img src=/Capturas/1.png alt="PS"/>
-<img src=/Capturas/2.png alt="PS"/>
+<img src=/Captures/windowsPS.png alt="MT"/>
+<img src=/Captures/windowsCMD.png alt="MT"/>
+<img src=/Captures/windowsAzure.png alt="MT"/>
 
 ### Oh-my-zsh en Windows Subsystem for Linux ⚙️
 
