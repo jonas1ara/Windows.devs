@@ -42,11 +42,12 @@ _PowerShell Preview from the Microsoft Store, because it comes from the Microsof
 
 <img src=/Captures/PowerShell.png alt="MS Terminal"/>
 
-_Windows Files Preview, This is a very very special, because Windows 10 needs revamped file explorer_
+_Files Preview, This is a very very special, because Windows 10 needs revamped file explorer_
 
 <img src=/Captures/Files.png alt="MS Terminal"/>
 
 
+## Windows Terminal 🖥
 ### Oh-my-posh en PowerShell 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para personalizar powershell en tu terminal_
