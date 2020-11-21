@@ -5,9 +5,10 @@
 <img src=/Recursos/03.png alt="Windows 10 Terminal"/>
 <img src=/Recursos/04.png alt="Windows 10 Explorer"/>
 
-## Comenzando 🚀
+## Starting 🚀
 
-_Te comparto mi configuración de Windows Terminal para personalizar mi entorno de trabajo y sentirte más cómodo, en la carpeta recursos encontrarás los logos y fuentes para utilizar en tu terminal; CascadiaCode para powershell y DroidSansMono para WSL, no olvides instalar estas fuentes en la carpeta fonts de windows 😅, en la carpeta windows terminal está mi configuración completa de la terminal y en la carpeta colorscheme está la configuración de temas y una muestra en imagen por cada shell. Disfrutalo_
+_I share this windows 10 settings, which I hope you ❤️ if you´re a .NET developer, in the resources folder you will find backgrounds, logos and fonts for your terminal and your wallpaper, the font Cascadia Code for PowerShell and
+Droid Sans Mono is for WSL, in the Terminal Windows folder is the .JSON configuration file of my terminal, enjoy it. _
 
 
 ### Pre-requisitos 📋
