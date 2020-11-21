@@ -1,7 +1,9 @@
 # Customize Windows 10 With Fluent Design for .NET Developers
 
 <img src=/Recursos/01.png alt="Windows 10"/>
-
+<img src=/Recursos/02.png alt="Windows 10 Home"/>
+<img src=/Recursos/03.png alt="Windows 10 Terminal"/>
+<img src=/Recursos/04.png alt="Windows 10 Explorer"/>
 
 ## Comenzando 🚀
 
