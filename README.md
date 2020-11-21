@@ -32,6 +32,21 @@ _What you need to customize your terminal_
 
 ```
 
+### Installing prerequisites 🔧
+
+_Windows Terminal (Preview), Why preview? Because_
+
+<img src=/Captures/Terminal.png alt="MS Terminal"/>
+
+_PowerShell Preview from the Microsoft Store, because it comes from the Microsoft Store and not from a repository_
+
+<img src=/Captures/PowerShell.png alt="MS Terminal"/>
+
+_Windows Files Preview, This is a very very special, because Windows 10 needs revamped file explorer_
+
+<img src=/Captures/Files.png alt="MS Terminal"/>
+
+
 ### Oh-my-posh en PowerShell 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para personalizar powershell en tu terminal_
