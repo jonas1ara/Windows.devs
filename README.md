@@ -1,9 +1,9 @@
 # Customize Windows 10 With Fluent Design for .NET Developers
 
-<img src=/Recursos/01.png alt="Windows 10"/>
-<img src=/Recursos/02.png alt="Windows 10 Home"/>
-<img src=/Recursos/03.png alt="Windows 10 Terminal"/>
-<img src=/Recursos/04.png alt="Windows 10 Explorer"/>
+<img src=/Captures/01.png alt="Windows 10"/>
+<img src=/Captures/02.png alt="Windows 10 Home"/>
+<img src=/Captures/03.png alt="Windows 10 Terminal"/>
+<img src=/Captures/04.png alt="Windows 10 Explorer"/>
 
 ## Starting 🚀
 
@@ -11,24 +11,24 @@ _I share this windows 10 settings, which I hope you ❤️ if you´re a .NET dev
 Droid Sans Mono is for WSL, in the Terminal Windows folder is the .JSON configuration file of my terminal, enjoy it. _
 
 
-### Pre-requisitos 📋
+### Prerequisites 📋
 
-_Lo que necesitas para personalizar tu terminal_
+_What you need to customize your terminal_
 
 ```
-1.-La nueva terminal de windows preferentemente descarga desde Microsoft Store.
+1.-Upgrading to Windows 10 20H2, if you're using WSL you already enjoy this update
 
-2.-Tener instalado git para windows y git para Windows Subsystem for Linux.
+2.-Windows Terminal(Preview) from the Microsoft Store
 
-3.-Descargar este repositorio por medio de git o como un archivo zip.
+3.-PowerShell Preview from the Microsoft Store
 
-4.-Un editor de texto plano: bloc de notas, vim, nano, etc.
+4.-Files Preview from the Microsoft Store
 
-5.-De preferencia instalar la versión mas reciente de powershell.
+5.-Git for Windows and Git for WSL
 
-6.-Las distrubuciones de Linux que gustes
+6.-Debian-based Linux distributions from the Microsoft Store
 
-7.-Paciencia
+7.-Love and peace
 
 ```
 

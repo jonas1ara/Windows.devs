@@ -1,0 +1,25 @@
+"schemes": 
+
+[
+    {
+        "name" : "ubuntu",
+        "background" : "#000000",
+        "black" : "#000000",
+        "blue" : "#858585",
+        "brightBlack" : "#555555",
+        "brightBlue" : "#555555",
+        "brightCyan" : "#8a8a8a",
+        "brightGreen" : "#ff5100",
+        "brightPurple" : "#C678DD",
+        "brightRed" : "#ff5100",
+        "brightWhite" : "#cfcccc",
+        "brightYellow" : "#ffffff",
+        "cyan" : "#000000",
+        "foreground" : "#ffffff",
+        "green" : "#f56d2e",
+        "purple" : "#f56d2e",
+        "red" : "#f56d2e",
+        "white" : "#cfcccc",
+        "yellow" : "#f56d2e"            
+    },
+],
