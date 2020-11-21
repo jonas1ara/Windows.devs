@@ -73,7 +73,7 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-Theme Paradox
 ```
-<img src=/Captures/PROFILE$.png alt="ProfilePS"/>
+<img src=/Captures/PROFILES$.png alt="ProfilePS"/>
 
 _Run a PowerShell Terminal as an administrator, to remove restrictions on modules_
 
