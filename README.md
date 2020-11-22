@@ -97,9 +97,9 @@ _If all went well, the result is..._
 
 ### Oh-my-zsh en Windows Subsystem for Linux ⚙️
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para personalizar powershell en tu terminal, si instalaste las fuentes DroidSansMono ya llevas el primer paso, el siguiente es copiar los logos(O los que tu prefieras) de la carpeta recursos_
+_A series of step-by-step examples that tells you what to run to customize Windows Subsystem for Linux on your terminal, if you installed the DroidSansMono fonts you already have the first step, the next step is to copy the logos from the resources folder_
 
-_Si trabajas en el disco local C, esta deberia ser la ruta donde pegar los logos_
+_If you work on local disk C, this should be the path where to paste the logos_
 
 ```
 C:\Users\youuser\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
@@ -107,9 +107,9 @@ C:\Users\youuser\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\
 
 <img src=/Capturas/Copialogos.png alt="Logos"/>
 
-_En este tutorial vamos a trabajar con Ubuntu, pero puedes hacer esto en Debian y Kali, dado que usan APT como administrador de paquetes y bash como shell predeterminada no debe a ver diferencias_
+_In this tutorial we will work with Ubuntu, but you can do this in Debian and Kali, since they use APT as package manager and bash as predete rminada shell should not see differences_
 
-_El primer paso es descargas una distro de Linux desde la Microsoft Store e introducir un usuario y constraseña, despues actualizar el sistema e instalar zsh y oh-my-zsh, te dejo aquí los comandos, acepta que zsh sea tu shell predeterminada._
+_After downloading the distro from the Microsoft Store and entering a user and password, update the system and install zsh and oh-my-zsh, I leave you here the commas, accept that zsh is your default shell_
 
 ```
 sudo apt update
@@ -121,7 +121,7 @@ sudo apt install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-_Acepta que zsh sea tu shell predeterminada e instala el tema powerline10k con el siguiente comando_
+_Accept that zsh is your default shell and install the powerline10k theme with the following comando_
 
 
 ```
@@ -129,17 +129,17 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 ```
 
 
-_Si no hiciste cosas, la pantalla que muestra es la siguiente:_
+_If you didn't do things wrong, the display screen is as follows:_
 
 <img src=/Capturas/quesiverga.png alt="QSV"/>
 
-_Cambia el tema de zsh, escribe_
+_Change zsh's theme and write_
 
 ```
 vim ~/.zshrc
 ```
 
-_Cambia el tema "russelnoseque" por:_
+_Change the "ruselnoseque" theme to:_
 
 ```
 powerlevel10k/powerlevel10k
@@ -147,35 +147,35 @@ powerlevel10k/powerlevel10k
 
 <img src=/Capturas/changepower.png alt="CP"/>
 
-_Ahora cierra y vuelve a abrir tu terminal, cuando la abras te aparecera una pantalla para configurar tu tema powerlevel10k, es inglés básico, aquí esta de mas explicar que hacer, si quieres volver a ajustar el tema escribe este comando_
+_Now close and reopen your terminal, when you open it you will see a screen to configure your theme powerlevel10k, it is basic English, here is more expl icar to do, if you want to re-adjust the theme type this command:_
 
 ```
 p10k configure
 ```
 
-_Para finalizar configura el perfil de Ubuntu en los ajsutes de la terminal de windows, de cualquier manera te dejo mis archivos JSON para que te des una idea_ 
+__Finally set up the Ubuntu profile in the windows terminal settings, either way I leave you my JSON files to give you an idea_ 
 
 <img src=/Capturas/4.png alt="Ubuntu"/>
 <img src=/Capturas/5.png alt="Debian"/>
 <img src=/Capturas/6.png alt="Kali"/>
 
 
-## Construido con 🛠️
+## Build with: 🛠️
 
-* [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Respositorio Oh-my-posh | ojo aqui, hay mas temas
-* [Oh-my-zsh](https://ohmyz.sh/) - página web de zsh 
-* [Powerline10k](https://github.com/romkatv/powerlevel10k) - Tema powerline10k
-* [Cascadia Code](https://www.hanselman.com/) - Fuente Cascadia Code PL
-* [DroidSansMono](https://www.nerdfonts.com/) - Fuente DroidSansMono
-* [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/) - Documentación oficial de la terminal de windows
-* [Blog of Scott Hanselman](https://www.hanselman.com/) - Este tipo es un crack 😵
-* [The digital life](https://www.the-digital-life.com/en/) - Checa el blog de mi colega
+* [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Oh-my-posh repository | check this out, for more themes
+* [Oh-my-zsh](https://ohmyz.sh/) - zsh website 
+* [Powerline10k](https://github.com/romkatv/powerlevel10k) - Powerline10k Theme
+* [Cascadia Code](https://www.hanselman.com/) - Cascadia Code PL Fonts
+* [DroidSansMono](https://www.nerdfonts.com/) - DroidSansMono Fonts
+* [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/) - Windows Terminal Microsoft Docs
+* [Blog of Scott Hanselman](https://www.hanselman.com/) - This guy is GREAT 😵
+* [The digital life](https://www.the-digital-life.com/en/) - Check this out
 
 
-## Expresiones de Gratitud 🎁
+## Expressions of gratitude
 
-* Gracias por visitar este repositorio para personalizar tu terminal en windows 🤓
-* Espera nuevos tutoriales sobre el ecosistema .NET
+* Thank you for reviewing this repo-tutorial to customize windows 10 with Fluent Design for .NET Developers 🤓
+* Expect more tutorials of .NET
 
 ---
-⌨️ con ❤️ por [Jonas-Lara](https://github.com/Jonas-Lara) 😊
+⌨️ With ❤️ By [Jonas-Lara](https://github.com/Jonas-Lara) 😊
