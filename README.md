@@ -129,7 +129,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 ```
 
 
-_Change zsh's theme and write_
+_Open the zsh configuration file_
 
 ```
 vim ~/.zshrc
