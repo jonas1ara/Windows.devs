@@ -143,7 +143,7 @@ powerlevel10k/powerlevel10k
 
 <img src=/Captures/ct.png alt="CP"/>
 
-_Now close and reopen your terminal, when you open it you will see a screen to configure your theme powerlevel10k, it is basic English, here is more expl icar to do, if you want to re-adjust the theme type this command:_
+_Now close and reopen your terminal, when you open it you will see a screen to configure your theme powerlevel10k, it is basic English, here is more explain to do, if you want to re-adjust the theme type this command:_
 
 ```
 p10k configure
