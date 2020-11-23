@@ -158,6 +158,7 @@ _Finally set up the Ubuntu profile in the windows terminal settings, either way 
 
 ## Build with: 🛠️
 
+* [Fluent Design] (https://www.microsoft.com/design/fluent/#/) - Fluent Design System
 * [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Oh-my-posh repository | check this out, for more themes
 * [Oh-my-zsh](https://ohmyz.sh/) - zsh website 
 * [Powerline10k](https://github.com/romkatv/powerlevel10k) - Powerline10k Theme
