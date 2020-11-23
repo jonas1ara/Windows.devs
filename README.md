@@ -105,7 +105,7 @@ _If you work on local disk C, this should be the path where to paste the logos_
 C:\Users\youuser\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
 ```
 
-<img src=/Capturas/Logos.png alt="Logos"/>
+<img src=/Captures/Logos.png alt="Logos"/>
 
 _In this tutorial we will work with Ubuntu, but you can do this in Debian and Kali, since they use APT as package manager and bash as predete rminada shell should not see differences_
 
@@ -131,7 +131,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 
 _If you didn't do things wrong, the display screen is as follows:_
 
-<img src=/Capturas/quesiverga.png alt="QSV"/>
+<img src=/Captures/quesiverga.png alt="QSV"/>
 
 _Change zsh's theme and write_
 
@@ -145,7 +145,7 @@ _Change the "ruselnoseque" theme to:_
 powerlevel10k/powerlevel10k
 ```
 
-<img src=/Capturas/changepower.png alt="CP"/>
+<img src=/Captures/changepower.png alt="CP"/>
 
 _Now close and reopen your terminal, when you open it you will see a screen to configure your theme powerlevel10k, it is basic English, here is more expl icar to do, if you want to re-adjust the theme type this command:_
 
@@ -155,9 +155,9 @@ p10k configure
 
 _Finally set up the Ubuntu profile in the windows terminal settings, either way I leave you my JSON files to give you an idea_ 
 
-<img src=/Capturas/windowsUbuntu.png alt="Ubuntu"/>
-<img src=/Capturas/windowsDebian.png alt="Debian"/>
-<img src=/Capturas/windowsKali.png alt="Kali"/>
+<img src=/Captures/windowsUbuntu.png alt="Ubuntu"/>
+<img src=/Captures/windowsDebian.png alt="Debian"/>
+<img src=/Captures/windowsKali.png alt="Kali"/>
 
 
 ## Build with: 🛠️
