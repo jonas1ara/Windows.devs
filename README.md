@@ -105,7 +105,7 @@ _If you work on local disk C, this should be the path where to paste the logos_
 C:\Users\youuser\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
 ```
 
-<img src=/Capturas/Copialogos.png alt="Logos"/>
+<img src=/Capturas/Logos.png alt="Logos"/>
 
 _In this tutorial we will work with Ubuntu, but you can do this in Debian and Kali, since they use APT as package manager and bash as predete rminada shell should not see differences_
 
@@ -153,11 +153,11 @@ _Now close and reopen your terminal, when you open it you will see a screen to c
 p10k configure
 ```
 
-__Finally set up the Ubuntu profile in the windows terminal settings, either way I leave you my JSON files to give you an idea_ 
+_Finally set up the Ubuntu profile in the windows terminal settings, either way I leave you my JSON files to give you an idea_ 
 
-<img src=/Capturas/4.png alt="Ubuntu"/>
-<img src=/Capturas/5.png alt="Debian"/>
-<img src=/Capturas/6.png alt="Kali"/>
+<img src=/Capturas/windowsUbuntu.png alt="Ubuntu"/>
+<img src=/Capturas/windowsDebian.png alt="Debian"/>
+<img src=/Capturas/windowsKali.png alt="Kali"/>
 
 
 ## Build with: 🛠️
