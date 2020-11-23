@@ -129,10 +129,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 ```
 
 
-_If you didn't do things wrong, the display screen is as follows:_
-
-<img src=/Captures/quesiverga.png alt="QSV"/>
-
 _Change zsh's theme and write_
 
 ```
@@ -145,7 +141,7 @@ _Change the "ruselnoseque" theme to:_
 powerlevel10k/powerlevel10k
 ```
 
-<img src=/Captures/changepower.png alt="CP"/>
+<img src=/Captures/ct.png alt="CP"/>
 
 _Now close and reopen your terminal, when you open it you will see a screen to configure your theme powerlevel10k, it is basic English, here is more expl icar to do, if you want to re-adjust the theme type this command:_
 
