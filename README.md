@@ -180,7 +180,8 @@ _Write dotnet to make sure the installation worked, it throws the reading of the
 
 ## Build with: 🛠️
 
-* [Fluent Design] (https://www.microsoft.com/design/fluent/#/) - Fluent Design System
+* [Fluent Design](https://www.microsoft.com/design/fluent/#/) - Fluent Design System
+* [.NET5](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#2004-) - .NET 5 on Ubuntu 20.04
 * [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Oh-my-posh repository | check this out, for more themes
 * [Oh-my-zsh](https://ohmyz.sh/) - zsh website 
 * [Powerline10k](https://github.com/romkatv/powerlevel10k) - Powerline10k Theme
