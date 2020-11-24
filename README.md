@@ -178,16 +178,20 @@ _Write dotnet to make sure the installation worked, it throws the reading of the
 
 <img src=/Captures/dotnet.png alt="Ubuntu"/>
 
+## Docker on WSL(Ubuntu-20.04)
+
+_A standard software package (known as a "container") groups an application's code with the associated libraries and configuration files, along with the dependencies required for the application to run. This allows developers and IT professionals to deploy applications seamlessly across all environments_
+
 ## Build with: 🛠️
 
 * [Fluent Design](https://www.microsoft.com/design/fluent/#/) - Fluent Design System
-* [.NET5](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#2004-) - .NET 5 on Ubuntu 20.04
+* [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/) - Windows Terminal Docs
+* [.NET](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#2004-) - .NET 5 on Ubuntu 20.04
 * [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Oh-my-posh repository | check this out, for more themes
 * [Oh-my-zsh](https://ohmyz.sh/) - zsh website 
 * [Powerline10k](https://github.com/romkatv/powerlevel10k) - Powerline10k Theme
 * [Cascadia Code](https://www.hanselman.com/) - Cascadia Code PL Fonts
 * [DroidSansMono](https://www.nerdfonts.com/) - DroidSansMono Fonts
-* [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/) - Windows Terminal Microsoft Docs
 * [Blog of Scott Hanselman](https://www.hanselman.com/) - This guy is GREAT 😵
 * [The digital life](https://www.the-digital-life.com/en/) - Check this out
 
