@@ -155,6 +155,28 @@ _Finally set up the Ubuntu profile in the windows terminal settings, either way 
 <img src=/Captures/windowsDebian.png alt="Debian"/>
 <img src=/Captures/windowsKali.png alt="Kali"/>
 
+## .NET 5 on Windows Subsystem For Linux (Ubuntu) 🖥
+_First we need to add the Microsoft package signing keys to the list of trusted keys and add the package repository_
+
+```
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+```
+<img src=/Captures/dotnetKeys.png alt="Ubuntu"/>
+
+_Installing the NET SDK that allows you to develop apps, when you install the SDK you do not need to install the corresponding runtime, the following commands install the .NET 5 SDK:_
+
+```
+sudo apt-get update; \
+  sudo apt-get install -y apt-transport-https && \
+  sudo apt-get update && \
+  sudo apt-get install -y aspnetcore-runtime-5.0
+```
+<img src=/Captures/dotnetUbu.png alt="Ubuntu"/>
+
+_Write dotnet to make sure the installation worked, it throws the reading of the following image:_
+
+<img src=/Captures/dotnet.png alt="Ubuntu"/>
 
 ## Build with: 🛠️
 
