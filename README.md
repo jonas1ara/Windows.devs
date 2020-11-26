@@ -178,7 +178,7 @@ _Write dotnet to make sure the installation worked, it throws the reading of the
 
 <img src=/Captures/dotnet.png alt="Ubuntu"/>
 
-## Docker on WSL(Ubuntu-20.04)
+## Docker on WSL(Ubuntu)
 
 _A standard software package (known as a "container") groups an application's code with the associated libraries and configuration files, along with the dependencies required for the application to run. This allows developers and IT professionals to deploy applications seamlessly across all environments_
 
