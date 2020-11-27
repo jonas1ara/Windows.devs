@@ -211,11 +211,7 @@ wsl -l -v
 
 <img src=/Captures/conversion.png alt="Conversion"/>
 
-_Now download and install Docker Desktop (with WSL 2 you don't need to have Windows 10 pro or enterprise to use it)_
-
-```
-https://hub.docker.com/editions/community/docker-ce-desktop-windows/
-```
+_Now download and *[install Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) (with WSL 2 you don't need to have Windows 10 pro or enterprise to use it)_
 
 _In the installation make sure that Docker accesses WSL and at the end of the installation make sure that the Docker engine is WSL-enabled and uses the default distro, if not refreshes and marks the distribution to use, as in the following image_
 
