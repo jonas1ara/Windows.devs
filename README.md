@@ -235,7 +235,7 @@ docker run hello-world
 * [Fluent Design](https://www.microsoft.com/design/fluent/#/) - Fluent Design System
 * [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/) - Windows Terminal Docs
 * [.NET](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#2004-) - .NET 5 on Ubuntu 20.04
-* [Docker]()
+* [Docker](https://docs.docker.com/docker-for-windows/install-windows-home/) - Docker Desktop on Windows Home
 * [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Oh-my-posh repository | check this out, for more themes
 * [Oh-my-zsh](https://ohmyz.sh/) - zsh website 
 * [Powerline10k](https://github.com/romkatv/powerlevel10k) - Powerline10k Theme
