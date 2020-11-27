@@ -182,11 +182,60 @@ _Write dotnet to make sure the installation worked, it throws the reading of the
 
 _A standard software package (known as a "container") groups an application's code with the associated libraries and configuration files, along with the dependencies required for the application to run. This allows developers and IT professionals to deploy applications seamlessly across all environments_
 
+_First we need to upgrade to windows subsystem for linux to version 2 (Incorporates a complete Linux Kernel built by Microsoft itself and released with the windows 2004 version)_
+
+_Download the WSL Linux Kernel Update Tool_
+
+```
+https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel
+```
+<img src=/Captures/Kernel.png alt="Kernel"/>
+
+_With the following command we list the installed Linux distributions_
+
+```
+wsl -l
+```
+
+_Now we convert WSL 1 to WSL 2 with the following command by adding the distro name with parameter 2_
+
+```
+wsl --set-version (distro) 2
+```
+
+_With this command we list the distros with their version_
+
+```
+wsl -l -v
+```
+
+<img src=/Captures/conversion.png alt="Conversion"/>
+
+_Now download and install Docker Desktop (with WSL 2 you don't need to have Windows 10 pro or enterprise to use it)_
+
+```
+https://hub.docker.com/editions/community/docker-ce-desktop-windows/
+```
+
+_In the installation make sure that Docker accesses WSL and at the end of the installation make sure that the Docker engine is WSL-enabled and uses the default distro, if not refreshes and marks the distribution to use, as in the following image_
+
+<img src=/Captures/DockerWSL.png alt="Conversion"/>
+
+_Finally check that everything went well, open a new terminal with the Linux distro configured for Docker and run the following image_
+
+```
+docker run hello-world
+```
+
+<img src=/Captures/dockerrunHW.png alt="Conversion"/>
+
+
 ## Build with: 🛠️
 
 * [Fluent Design](https://www.microsoft.com/design/fluent/#/) - Fluent Design System
 * [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/) - Windows Terminal Docs
 * [.NET](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#2004-) - .NET 5 on Ubuntu 20.04
+* [Docker]()
 * [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Oh-my-posh repository | check this out, for more themes
 * [Oh-my-zsh](https://ohmyz.sh/) - zsh website 
 * [Powerline10k](https://github.com/romkatv/powerlevel10k) - Powerline10k Theme
