@@ -6,7 +6,7 @@
        "blue" : "#a70404",
        "brightBlack" : "#a70404",
        "brightBlue" : "#a70404",
-       "brightCyan" : "#000000",
+       "brightCyan" : "#750404",
        "brightGreen" : "#ffffff",
        "brightPurple" : "#000000",
        "brightRed" : "#a70404",
@@ -14,10 +14,10 @@
        "brightYellow" : "#a70404",
        "cyan" : "#a70404",
        "foreground" : "#ffffff",
-       "green" : "#000000",
-       "purple" : "#000000",
+       "green" : "#858585",
+       "purple" : "#858585",
        "red" : "#ffffff",
        "white" : "#ffffff",
-       "yellow" : "#a70404"
+       "yellow" : "#858585"
    },
 ]
