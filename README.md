@@ -155,6 +155,17 @@ _Finally set up the Ubuntu profile in the windows terminal settings, either way 
 <img src=/Captures/windowsDebian.png alt="Debian"/>
 <img src=/Captures/windowsKali.png alt="Kali"/>
 
+_One more thing, to install it in open suse you have to use the zypper package manager_ 
+
+```
+sudo zypper update
+```
+```
+sudo zypper install zsh -y
+```
+
+<img src=/Captures/windowsKali.png alt="Kali"/>
+
 ## .NET 5 on Windows Subsystem For Linux (Ubuntu) 🖥
 _First we need to add the Microsoft package signing keys to the list of trusted keys and add the package repository_
 
