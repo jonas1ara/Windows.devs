@@ -164,7 +164,7 @@ sudo zypper update
 sudo zypper install zsh -y
 ```
 
-<img src=/Captures/windowsKali.png alt="Kali"/>
+<img src=/Captures/windowsSuse.png alt="Suse"/>
 
 ## .NET 5 on Windows Subsystem For Linux (Ubuntu) 🖥
 _First we need to add the Microsoft package signing keys to the list of trusted keys and add the package repository_
