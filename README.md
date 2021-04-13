@@ -127,7 +127,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 <img src=/Captures/17.png alt="zsh"/>
 
-_Clones the powerlevel10k theme:_
+_Clone the powerlevel10k theme:_
 
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -179,9 +179,7 @@ sudo apt install zsh -y
 
 _A standard software package (known as a "container") groups an application's code with the associated libraries and configuration files, along with the dependencies required for the application to run. This allows developers and IT professionals to deploy applications seamlessly across all environments_
 
-_First we need to upgrade to windows subsystem for linux to version 2 (Incorporates a complete Linux Kernel built by Microsoft itself and released with the windows 2004 version)_
-
-<img src=/Captures/Kernel.png alt="Kernel"/>
+_First we need to upgrade to windows subsystem for linux to version 2 (Incorporates a complete Linux Kernel built by Microsoft itself and released with the windows 2004 version... build X)_
 
 _With the following command we list the installed Linux distributions_
 
