@@ -1,9 +1,9 @@
 # Customize Windows 10 With Fluent Design for .NET Developers
 
-<img src=/Captures/1.png alt="Windows 10"/>
-<img src=/Captures/2.png alt="Windows 10 Home"/>
-<img src=/Captures/3.png alt="Windows 10 Terminal"/>
-<img src=/Captures/4.png alt="Windows 10 Explorer"/>
+<img src=/Captures/0.png alt="Windows 10"/>
+<img src=/Captures/1.png alt="Windows 10 Home"/>
+<img src=/Captures/2.png alt="Windows 10 Terminal"/>
+<img src=/Captures/3.png alt="Windows 10 Explorer"/>
 
 ## Starting 🚀
 
@@ -18,15 +18,15 @@ _What you need to customize your terminal_
 ```
 1.-Upgrading to Windows 10 20H2, if you're using WSL you already enjoy this update
 
-2.-Windows Terminal(Preview) from the Microsoft Store
+2.-Windows Terminal from the Microsoft Store
 
-3.-PowerShell Preview from the Microsoft Store
+3.-PowerShell from the Microsoft Store
 
-4.-Files Preview from the Microsoft Store
+4.-Git for Windows and Git for WSL
 
-5.-Git for Windows and Git for WSL
+5.-Debian-based Linux distributions from the Microsoft Store
 
-6.-Debian-based Linux distributions from the Microsoft Store
+6.-SUSE-bases Linux distributions from the Microsoft Store
 
 7.-Love and peace
 
@@ -34,17 +34,18 @@ _What you need to customize your terminal_
 
 ### Installing prerequisites 🔧
 
-_Windows Terminal (Preview), Why preview? Because_
+_[Windows Terminal](https://www.microsoft.com/es-mx/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)_
 
-<img src=/Captures/Terminal.png alt="MS Terminal"/>
 
-_PowerShell Preview from the Microsoft Store, because it comes from the Microsoft Store and not from a repository_
+<img src=/Captures/4.png alt="Windows Terminal"/>
 
-<img src=/Captures/PowerShell.png alt="MS Terminal"/>
+_[PowerShell](https://www.microsoft.com/es-mx/p/powershell/9mz1snwt0n5d?activetab=pivot:overviewtab)_
 
-_Files Preview, This is a very very special, because Windows 10 needs revamped file explorer_
+<img src=/Captures/5.png alt="PowerShell 7"/>
 
-<img src=/Captures/Files.png alt="MS Terminal"/>
+_Linux distributions [OpenSUSE Leap 15.2](https://www.microsoft.com/es-mx/p/opensuse-leap-152/9mzd0n9z4m4h?activetab=pivot:overviewtab), [Ubuntu 20.04](https://www.microsoft.com/es-mx/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab), [Debian 10](https://www.microsoft.com/es-mx/p/debian/9msvkqc78pk6?activetab=pivot:overviewtab) y [Kali](https://www.microsoft.com/es-mx/p/kali-linux/9pkr34tncv07?activetab=pivot:overviewtab/)_
+
+<img src=/Captures/6.png alt="Linux distributions"/>
 
 
 ## Windows Terminal 🖥
@@ -55,7 +56,10 @@ _A series of step-by-step examples that tells you what to run to customize Power
 
 _Once downloaded the Windows Terminal and this repository copies the fonts from the compressed folders (Obvious unzips first) in Windows Fonts remembers Cascadia Code PL for PowerShell and DroidSansMono for WSL_
 
-<img src=/Captures/Fonts.png alt="Fonts"/>
+<img src=/Captures/7.png alt="Fonts"/>
+
+_Run a PowerShell Terminal as an administrator,_
+
 
 _Then install Oh-my-posh in PowerShell, with the following commands; remember to decline for trusting the source_
 
@@ -71,29 +75,25 @@ _Import the modules into your PowerShell profile_
 ```
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-Theme Paradox
+Set-PoshPrompt -Theme Aliens
 ```
-<img src=/Captures/PROFILES$.png alt="ProfilePS"/>
+<img src=/Captures/8.png alt="ProfilePS"/>
 
-_Run a PowerShell Terminal as an administrator, to remove restrictions on modules_
+_Remove restrictions on modules_
 
 ```
 Set Execution-Policy Unrestricted
 ```
 
-<img src=/Captures/Set.png alt="Set"/>
-
 _In the Windows-Terminal folder I leave you two sections of json files, one for the complete configuration of terminal windows and one for color themes, for each color scheme attached a shot as an example, in tastes are broken genres, it is my customization does not have to like you, I invite you to copy the profiles you need and then play with the color scheme_
-
-<img src=/Captures/ConfPS.png alt="ConfigPS"/>
 
 <img src=/Captures/esquemasPS.png alt="SchemesPS"/>
 
 _If all went well, the result is..._ 
 
-<img src=/Captures/windowsPS.png alt="MT"/>
-<img src=/Captures/windowsCMD.png alt="MT"/>
-<img src=/Captures/windowsAzure.png alt="MT"/>
+<img src=/Captures/10.png alt="Oh-my-posh"/>
+<img src=/Captures/11.png alt="Azure CLI"/>
+<img src=/Captures/12.png alt="CMD"/>
 
 ### Oh-my-zsh en Windows Subsystem for Linux ⚙️
 
@@ -105,29 +105,30 @@ _If you work on local disk C, this should be the path where to paste the logos_
 C:\Users\youuser\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
 ```
 
-<img src=/Captures/Logos.png alt="Logos"/>
+<img src=/Captures/13.png alt="Logos"/>
 
 _In this tutorial we will work with Ubuntu, but you can do this in Debian and Kali, since they use APT as package manager and bash as predete rminada shell should not see differences_
 
 _After downloading the distro from the Microsoft Store and entering a user and password, update the system and install zsh and oh-my-zsh, I leave you here the commas, accept that zsh is your default shell_
 
 ```
-sudo apt update
+sudo zypper update
 ```
 ```
-sudo apt install zsh -y
+sudo zypper install zsh -y
 ```
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-_Accept that zsh is your default shell and install the powerline10k theme with the following comando_
+_Accept that zsh is your default shell and install the powerline10k theme with the following comand_
 
 
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
+<img src=/Captures/14.png alt="zsh"/>
 
 _Open the zsh configuration file_
 
@@ -141,7 +142,7 @@ _Change the "ruselnoseque" theme to:_
 powerlevel10k/powerlevel10k
 ```
 
-<img src=/Captures/ct.png alt="CP"/>
+<img src=/Captures/15.png alt="vim"/>
 
 _Now close and reopen your terminal, when you open it you will see a screen to configure your theme powerlevel10k, it is basic English, here is more explain to do, if you want to re-adjust the theme type this command:_
 
@@ -151,18 +152,20 @@ p10k configure
 
 _Finally set up the Ubuntu profile in the windows terminal settings, either way I leave you my JSON files to give you an idea_ 
 
-<img src=/Captures/windowsUbuntu.png alt="Ubuntu"/>
-<img src=/Captures/windowsDebian.png alt="Debian"/>
-<img src=/Captures/windowsKali.png alt="Kali"/>
+<img src=/Captures/16.png alt="SUSE"/>
+<img src=/Captures/17.png alt="Ubuntu"/>
+<img src=/Captures/18.png alt="Debian"/>
+<img src=/Captures/19.png alt="Kali"/>
 
 _One more thing, to install it in open suse you have to use the zypper package manager_ 
 
 ```
-sudo zypper update
+sudo apt update
 ```
 ```
-sudo zypper install zsh -y
+sudo apt install zsh -y
 ```
+
 
 <img src=/Captures/windowsSuse.png alt="Suse"/>
 
