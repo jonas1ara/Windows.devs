@@ -43,7 +43,7 @@ _[PowerShell](https://www.microsoft.com/es-mx/p/powershell/9mz1snwt0n5d?activeta
 
 <img src=/Captures/6.png alt="PowerShell 7"/>
 
-_Linux distributions [OpenSUSE Leap 15.2](https://www.microsoft.com/es-mx/p/opensuse-leap-152/9mzd0n9z4m4h?activetab=pivot:overviewtab), [Ubuntu 20.04](https://www.microsoft.com/es-mx/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab), [Debian 10](https://www.microsoft.com/es-mx/p/debian/9msvkqc78pk6?activetab=pivot:overviewtab) y [Kali](https://www.microsoft.com/es-mx/p/kali-linux/9pkr34tncv07?activetab=pivot:overviewtab/)_
+_Linux distributions: [OpenSUSE Leap 15.2](https://www.microsoft.com/es-mx/p/opensuse-leap-152/9mzd0n9z4m4h?activetab=pivot:overviewtab), [Ubuntu 20.04](https://www.microsoft.com/es-mx/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab), [Debian 10](https://www.microsoft.com/es-mx/p/debian/9msvkqc78pk6?activetab=pivot:overviewtab) and [Kali](https://www.microsoft.com/es-mx/p/kali-linux/9pkr34tncv07?activetab=pivot:overviewtab/)_
 
 <img src=/Captures/7.png alt="Linux distributions"/>
 
@@ -54,11 +54,11 @@ _Linux distributions [OpenSUSE Leap 15.2](https://www.microsoft.com/es-mx/p/open
 
 _A series of step-by-step examples that tells you what to run to customize PowerShell on your Terminal_
 
-_Once downloaded the Windows Terminal and this repository copies the fonts from the compressed folders (Obvious unzips first) in Windows Fonts remembers Cascadia Code PL for PowerShell and DroidSansMono for WSL_
+_Once downloaded the Windows Terminal and this repository copies the fonts from the folders in Windows Fonts remembers Cascadia Code PL for PowerShell and DroidSansMono for WSL_
 
 <img src=/Captures/8.png alt="Fonts"/>
 
-_Run a PowerShell Terminal as an administrator,_
+_Run a PowerShell Terminal as an administrator_
 
 
 _Then install Oh-my-posh in PowerShell, with the following commands; remember to decline for trusting the source_
@@ -77,60 +77,64 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt -Theme Aliens
 ```
-<img src=/Captures/9.png alt="ProfilePS"/>
 
 _Remove restrictions on modules_
 
 ```
 Set Execution-Policy Unrestricted
 ```
+<img src=/Captures/9.png alt="ProfilePS"/>
+
+
 
 _In the Windows-Terminal folder I leave you two sections of json files, one for the complete configuration of terminal windows and one for color themes, for each color scheme attached a shot as an example, in tastes are broken genres, it is my customization does not have to like you, I invite you to copy the profiles you need and then play with the color scheme_
 
-<img src=/Captures/esquemasPS.png alt="SchemesPS"/>
+<img src=/Captures/10.png alt="SchemesPS"/>
+<img src=/Captures/11.png alt="SchemesPS"/>
+<img src=/Captures/12.png alt="SchemesPS"/>
 
 _If all went well, the result is..._ 
 
-<img src=/Captures/11.png alt="Oh-my-posh"/>
-<img src=/Captures/12.png alt="Azure CLI"/>
-<img src=/Captures/13.png alt="CMD"/>
+<img src=/Captures/13.png alt="Oh-my-posh"/>
+<img src=/Captures/14.png alt="Azure CLI"/>
+<img src=/Captures/15.png alt="CMD"/>
 
-### Oh-my-zsh en Windows Subsystem for Linux ⚙️
+### Oh-my-zsh on Windows Subsystem for Linux ⚙️
 
-_A series of step-by-step examples that tells you what to run to customize Windows Subsystem for Linux on your terminal, if you installed the DroidSansMono fonts you already have the first step, the next step is to copy the logos from the resources folder_
+_A series of step-by-step examples that tells you what to run to customize Windows Subsystem for Linux on your terminal, if you installed the DroidSansMono fonts you already have the first step, the next step is to copy the logos from the resources folder._
 
-_If you work on local disk C, this should be the path where to paste the logos_
+_If you work on local disk C, this should be the path where to paste the logos:_
 
 ```
 C:\Users\youuser\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
 ```
 
-<img src=/Captures/14.png alt="Logos"/>
+<img src=/Captures/16.png alt="Logos"/>
 
-_In this tutorial we will work with Ubuntu, but you can do this in Debian and Kali, since they use APT as package manager and bash as predete rminada shell should not see differences_
+_In this tutorial we will work with openSUSE, but you can do this in Debian based distribution , using APT as a package manager should not see problems._
 
-_After downloading the distro from the Microsoft Store and entering a user and password, update the system and install zsh and oh-my-zsh, I leave you here the commas, accept that zsh is your default shell_
+_Update the system and install zsh and oh-my-zsh, I leave you here the commands:_
 
 ```
 sudo zypper update
 ```
 ```
-sudo zypper install zsh -y
+sudo zypper install zsh
 ```
+_Accept that zsh is your default shell and install the powerline10k theme with the following comand:_
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-_Accept that zsh is your default shell and install the powerline10k theme with the following comand_
+<img src=/Captures/17.png alt="zsh"/>
 
+_Clones the powerlevel10k theme:_
 
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-<img src=/Captures/15.png alt="zsh"/>
-
-_Open the zsh configuration file_
+_Open the zsh configuration file:_
 
 ```
 vim ~/.zshrc
@@ -142,20 +146,20 @@ _Change the "ruselnoseque" theme to:_
 powerlevel10k/powerlevel10k
 ```
 
-<img src=/Captures/16.png alt="vim"/>
+<img src=/Captures/18.png alt="vim"/>
 
-_Now close and reopen your terminal, when you open it you will see a screen to configure your theme powerlevel10k, it is basic English, here is more explain to do, if you want to re-adjust the theme type this command:_
+_Now close and reopen your terminal, when you open it you will see a screen to configure your theme powerlevel10k, it´s basic english, here is more explain to do, if you want to re-adjust the theme type this command:_
 
 ```
 p10k configure
 ```
 
-_Finally set up the Ubuntu profile in the windows terminal settings, either way I leave you my JSON files to give you an idea_ 
+_Finally set up the OpenSUSE profile in the windows terminal settings, either way I leave you my JSON files to give you an idea_ 
 
-<img src=/Captures/17.png alt="SUSE"/>
+<img src=/Captures/19.png alt="SUSE"/>
 
 
-_One more thing, to install it in open suse you have to use the zypper package manager_ 
+_One more thing, to install it in Debian based distributions you have to use the apt package manager, with the same process_ 
 
 ```
 sudo apt update
@@ -163,9 +167,9 @@ sudo apt update
 ```
 sudo apt install zsh -y
 ```
-<img src=/Captures/18.png alt="Ubuntu"/>
-<img src=/Captures/19.png alt="Debian"/>
-<img src=/Captures/20.png alt="Kali"/>
+<img src=/Captures/20.png alt="Ubuntu"/>
+<img src=/Captures/21.png alt="Debian"/>
+<img src=/Captures/22.png alt="Kali"/>
 
 ## .NET 5 on Windows Subsystem For Linux (Ubuntu) 🖥
 _First we need to add the Microsoft package signing keys to the list of trusted keys and add the package repository_
