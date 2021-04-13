@@ -16,19 +16,21 @@ Droid Sans Mono is for WSL, in the Terminal Windows folder is the .JSON configur
 _What you need to customize your terminal_
 
 ```
-1.-Upgrading to Windows 10 20H2, if you're using WSL you already enjoy this update
+1.-Download this repository from Zip or Git
 
-2.-Windows Terminal from the Microsoft Store
+2.-Upgrading to Windows 10 20H2.
 
-3.-PowerShell from the Microsoft Store
+3.-Windows Terminal from the Microsoft Store
 
-4.-Git for Windows and Git for WSL
+4.-PowerShell from the Microsoft Store
 
-5.-Debian-based Linux distributions from the Microsoft Store
+5.-Git for Windows and Git for WSL
 
-6.-SUSE-bases Linux distributions from the Microsoft Store
+6.-Debian-based Linux distributions from the Microsoft Store
 
-7.-Love and peace
+7.-SUSE-bases Linux distributions from the Microsoft Store
+
+8.-Love and peace
 
 ```
 
