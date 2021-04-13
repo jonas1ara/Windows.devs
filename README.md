@@ -1,4 +1,4 @@
-# Customize Poweshell With Oh-my-posh and WSL with Oh-my-zsh on Windows 10 
+# Customize PowerShell With Oh-my-posh and WSL with Oh-my-zsh on Windows 10 
 
 <img src=/Captures/1.png alt="Windows 10"/>
 <img src=/Captures/2.png alt="Windows 10 Home"/>
