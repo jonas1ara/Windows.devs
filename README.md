@@ -153,9 +153,7 @@ p10k configure
 _Finally set up the Ubuntu profile in the windows terminal settings, either way I leave you my JSON files to give you an idea_ 
 
 <img src=/Captures/16.png alt="SUSE"/>
-<img src=/Captures/17.png alt="Ubuntu"/>
-<img src=/Captures/18.png alt="Debian"/>
-<img src=/Captures/19.png alt="Kali"/>
+
 
 _One more thing, to install it in open suse you have to use the zypper package manager_ 
 
@@ -165,9 +163,9 @@ sudo apt update
 ```
 sudo apt install zsh -y
 ```
-
-
-<img src=/Captures/windowsSuse.png alt="Suse"/>
+<img src=/Captures/17.png alt="Ubuntu"/>
+<img src=/Captures/18.png alt="Debian"/>
+<img src=/Captures/19.png alt="Kali"/>
 
 ## .NET 5 on Windows Subsystem For Linux (Ubuntu) 🖥
 _First we need to add the Microsoft package signing keys to the list of trusted keys and add the package repository_
