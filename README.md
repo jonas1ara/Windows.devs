@@ -1,4 +1,4 @@
-# Customize Windows 10 With Fluent Design for .NET Developers
+# Customize Windows 10 With Oh-my-posh and WSL with Oh-my-zsh  
 
 <img src=/Captures/1.png alt="Windows 10"/>
 <img src=/Captures/2.png alt="Windows 10 Home"/>
@@ -166,30 +166,13 @@ sudo apt install zsh -y
 ```
 <img src=/Captures/20.png alt="Ubuntu"/>
 <img src=/Captures/21.png alt="Debian"/>
-<img src=/Captures/22.png alt="Kali"/>
 
-## .NET 5 on Windows Subsystem For Linux (Ubuntu) 🖥
-_First we need to add the Microsoft package signing keys to the list of trusted keys and add the package repository_
 
-```
-wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-```
-<img src=/Captures/dotnetKeys.png alt="Ubuntu"/>
+## Prework for .NET developers that use Python on Windows and Linux ✌😁 🖥
+_First we need to add the Microsoft package signing keys to the list of trusted keys and add the package repository_ 
 
-_Installing the NET SDK that allows you to develop apps, when you install the SDK you do not need to install the corresponding runtime, the following commands install the .NET 5 SDK:_
+<img src=/Captures/23.png alt="Tecnologies"/>
 
-```
-sudo apt-get update; \
-  sudo apt-get install -y apt-transport-https && \
-  sudo apt-get update && \
-  sudo apt-get install -y aspnetcore-runtime-5.0
-```
-<img src=/Captures/dotnetUbu.png alt="Ubuntu"/>
-
-_Write dotnet to make sure the installation worked, it throws the reading of the following image:_
-
-<img src=/Captures/dotnet.png alt="Ubuntu"/>
 
 ## Docker on WSL(Ubuntu-20.04)
 
@@ -222,13 +205,19 @@ _With this command we list the distros with their version_
 wsl -l -v
 ```
 
-<img src=/Captures/conversion.png alt="Conversion"/>
+<img src=/Captures/24.png alt="Conversion"/>
 
-_Now download and [install Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) (with WSL 2 you don't need to have Windows 10 pro or enterprise to use it)_
+_Now download and [install Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows/) or use winget package manager from powershell (with WSL 2 you don't need to have Windows 10 pro or enterprise to use it)_
+
+```
+winget install docker
+```
+<img src=/Captures/25.png alt="Winget"/>
+
 
 _In the installation make sure that Docker accesses WSL and at the end of the installation make sure that the Docker engine is WSL-enabled and uses the default distro, if not refreshes and marks the distribution to use, as in the following image_
 
-<img src=/Captures/DockerWSL.png alt="Conversion"/>
+<img src=/Captures/26.png alt="Docker Desktop"/>
 
 _Finally check that everything went well, open a new terminal with the Linux distro configured for Docker and run the following image_
 
@@ -236,7 +225,7 @@ _Finally check that everything went well, open a new terminal with the Linux dis
 docker run hello-world
 ```
 
-<img src=/Captures/dockerrunHW.png alt="Conversion"/>
+<img src=/Captures/26.png alt="Hello World"/>
 
 
 ## Build with: 🛠️
