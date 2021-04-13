@@ -54,14 +54,11 @@ _Linux distributions: [OpenSUSE Leap 15.2](https://www.microsoft.com/es-mx/p/ope
 
 _A series of step-by-step examples that tells you what to run to customize PowerShell on your Terminal_
 
-_Once downloaded the Windows Terminal and this repository copies the fonts from the folders in Windows Fonts remembers Cascadia Code PL for PowerShell and DroidSansMono for WSL_
+_Once downloaded the Windows Terminal and this repository copies the fonts from folders to Windows Fonts, remembers Cascadia Code for PowerShell and DroidSansMono for WSL_
 
 <img src=/Captures/8.png alt="Fonts"/>
 
-_Run a PowerShell Terminal as an administrator_
-
-
-_Then install Oh-my-posh in PowerShell, with the following commands; remember to decline for trusting the source_
+_Run a PowerShell Terminal as an administrator and then install Oh-my-posh in PowerShell with the following commands; remember to decline for trusting the source:_
 
 ```
 Install-Module posh-git -Scope CurrentUser
@@ -87,7 +84,7 @@ Set Execution-Policy Unrestricted
 
 
 
-_In the Windows-Terminal folder I leave you two sections of json files, one for the complete configuration of terminal windows and one for color themes, for each color scheme attached a shot as an example, in tastes are broken genres, it is my customization does not have to like you, I invite you to copy the profiles you need and then play with the color scheme_
+_In the resources folder, leave the JSON settings of my profile, use it for the general configuration of the terminal, for the configuration of the different shells, CLI and command prompt that you have, and for the powershell and WSL color schemes. Compare it to your JSON settings and don't complicate your life copy and paste._
 
 <img src=/Captures/10.png alt="SchemesPS"/>
 <img src=/Captures/11.png alt="SchemesPS"/>
@@ -121,7 +118,7 @@ sudo zypper update
 ```
 sudo zypper install zsh
 ```
-_Accept that zsh is your default shell and install the powerline10k theme with the following comand:_
+_Clone and accept Accept that zsh is your default shell:_
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -154,7 +151,7 @@ _Now close and reopen your terminal, when you open it you will see a screen to c
 p10k configure
 ```
 
-_Finally set up the OpenSUSE profile in the windows terminal settings, either way I leave you my JSON files to give you an idea_ 
+_Finally set up the OpenSUSE profile in the windows terminal settings, customize to your liking, this is mine_ 
 
 <img src=/Captures/19.png alt="SUSE"/>
 
