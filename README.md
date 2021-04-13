@@ -1,4 +1,4 @@
-# Customize Windows 10 With Oh-my-posh and WSL with Oh-my-zsh  
+# Customize Poweshell With Oh-my-posh and WSL with Oh-my-zsh on Windows 10 
 
 <img src=/Captures/1.png alt="Windows 10"/>
 <img src=/Captures/2.png alt="Windows 10 Home"/>
@@ -118,7 +118,7 @@ sudo zypper update
 ```
 sudo zypper install zsh
 ```
-_Clone and accept Accept that zsh is your default shell:_
+_Clone and accept that zsh is your default shell:_
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -168,8 +168,7 @@ sudo apt install zsh -y
 <img src=/Captures/21.png alt="Debian"/>
 
 
-## Prework for .NET developers that use Python on Windows and Linux ✌😁 🖥
-_First we need to add the Microsoft package signing keys to the list of trusted keys and add the package repository_ 
+# Prework for .NET developers that use Python on Windows and Linux ✌😁 🖥
 
 <img src=/Captures/23.png alt="Tecnologies"/>
 
@@ -180,11 +179,6 @@ _A standard software package (known as a "container") groups an application's co
 
 _First we need to upgrade to windows subsystem for linux to version 2 (Incorporates a complete Linux Kernel built by Microsoft itself and released with the windows 2004 version)_
 
-_Download the WSL Linux Kernel Update Tool_
-
-```
-https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel
-```
 <img src=/Captures/Kernel.png alt="Kernel"/>
 
 _With the following command we list the installed Linux distributions_
@@ -225,7 +219,7 @@ _Finally check that everything went well, open a new terminal with the Linux dis
 docker run hello-world
 ```
 
-<img src=/Captures/26.png alt="Hello World"/>
+<img src=/Captures/27.png alt="Hello World"/>
 
 
 ## Build with: 🛠️
