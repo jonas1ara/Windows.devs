@@ -1,9 +1,9 @@
 # Customize Windows 10 With Fluent Design for .NET Developers
 
-<img src=/Captures/0.png alt="Windows 10"/>
-<img src=/Captures/1.png alt="Windows 10 Home"/>
-<img src=/Captures/2.png alt="Windows 10 Terminal"/>
-<img src=/Captures/3.png alt="Windows 10 Explorer"/>
+<img src=/Captures/1.png alt="Windows 10"/>
+<img src=/Captures/2.png alt="Windows 10 Home"/>
+<img src=/Captures/3.png alt="Windows 10 Terminal"/>
+<img src=/Captures/4.png alt="Windows 10 Explorer"/>
 
 ## Starting 🚀
 
@@ -37,15 +37,15 @@ _What you need to customize your terminal_
 _[Windows Terminal](https://www.microsoft.com/es-mx/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)_
 
 
-<img src=/Captures/4.png alt="Windows Terminal"/>
+<img src=/Captures/5.png alt="Windows Terminal"/>
 
 _[PowerShell](https://www.microsoft.com/es-mx/p/powershell/9mz1snwt0n5d?activetab=pivot:overviewtab)_
 
-<img src=/Captures/5.png alt="PowerShell 7"/>
+<img src=/Captures/6.png alt="PowerShell 7"/>
 
 _Linux distributions [OpenSUSE Leap 15.2](https://www.microsoft.com/es-mx/p/opensuse-leap-152/9mzd0n9z4m4h?activetab=pivot:overviewtab), [Ubuntu 20.04](https://www.microsoft.com/es-mx/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab), [Debian 10](https://www.microsoft.com/es-mx/p/debian/9msvkqc78pk6?activetab=pivot:overviewtab) y [Kali](https://www.microsoft.com/es-mx/p/kali-linux/9pkr34tncv07?activetab=pivot:overviewtab/)_
 
-<img src=/Captures/6.png alt="Linux distributions"/>
+<img src=/Captures/7.png alt="Linux distributions"/>
 
 
 ## Windows Terminal 🖥
@@ -56,7 +56,7 @@ _A series of step-by-step examples that tells you what to run to customize Power
 
 _Once downloaded the Windows Terminal and this repository copies the fonts from the compressed folders (Obvious unzips first) in Windows Fonts remembers Cascadia Code PL for PowerShell and DroidSansMono for WSL_
 
-<img src=/Captures/7.png alt="Fonts"/>
+<img src=/Captures/8.png alt="Fonts"/>
 
 _Run a PowerShell Terminal as an administrator,_
 
@@ -77,7 +77,7 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt -Theme Aliens
 ```
-<img src=/Captures/8.png alt="ProfilePS"/>
+<img src=/Captures/9.png alt="ProfilePS"/>
 
 _Remove restrictions on modules_
 
@@ -91,9 +91,9 @@ _In the Windows-Terminal folder I leave you two sections of json files, one for 
 
 _If all went well, the result is..._ 
 
-<img src=/Captures/10.png alt="Oh-my-posh"/>
-<img src=/Captures/11.png alt="Azure CLI"/>
-<img src=/Captures/12.png alt="CMD"/>
+<img src=/Captures/11.png alt="Oh-my-posh"/>
+<img src=/Captures/12.png alt="Azure CLI"/>
+<img src=/Captures/13.png alt="CMD"/>
 
 ### Oh-my-zsh en Windows Subsystem for Linux ⚙️
 
@@ -105,7 +105,7 @@ _If you work on local disk C, this should be the path where to paste the logos_
 C:\Users\youuser\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
 ```
 
-<img src=/Captures/13.png alt="Logos"/>
+<img src=/Captures/14.png alt="Logos"/>
 
 _In this tutorial we will work with Ubuntu, but you can do this in Debian and Kali, since they use APT as package manager and bash as predete rminada shell should not see differences_
 
@@ -128,7 +128,7 @@ _Accept that zsh is your default shell and install the powerline10k theme with t
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-<img src=/Captures/14.png alt="zsh"/>
+<img src=/Captures/15.png alt="zsh"/>
 
 _Open the zsh configuration file_
 
@@ -142,7 +142,7 @@ _Change the "ruselnoseque" theme to:_
 powerlevel10k/powerlevel10k
 ```
 
-<img src=/Captures/15.png alt="vim"/>
+<img src=/Captures/16.png alt="vim"/>
 
 _Now close and reopen your terminal, when you open it you will see a screen to configure your theme powerlevel10k, it is basic English, here is more explain to do, if you want to re-adjust the theme type this command:_
 
@@ -152,7 +152,7 @@ p10k configure
 
 _Finally set up the Ubuntu profile in the windows terminal settings, either way I leave you my JSON files to give you an idea_ 
 
-<img src=/Captures/16.png alt="SUSE"/>
+<img src=/Captures/17.png alt="SUSE"/>
 
 
 _One more thing, to install it in open suse you have to use the zypper package manager_ 
@@ -163,9 +163,9 @@ sudo apt update
 ```
 sudo apt install zsh -y
 ```
-<img src=/Captures/17.png alt="Ubuntu"/>
-<img src=/Captures/18.png alt="Debian"/>
-<img src=/Captures/19.png alt="Kali"/>
+<img src=/Captures/18.png alt="Ubuntu"/>
+<img src=/Captures/19.png alt="Debian"/>
+<img src=/Captures/20.png alt="Kali"/>
 
 ## .NET 5 on Windows Subsystem For Linux (Ubuntu) 🖥
 _First we need to add the Microsoft package signing keys to the list of trusted keys and add the package repository_
