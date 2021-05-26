@@ -1,8 +1,5 @@
 # Customize PowerShell With Oh-my-posh and WSL with Oh-my-zsh on Windows 10 
 
-<img src=/Captures/1.png alt="Windows 10"/>
-<img src=/Captures/2.png alt="Windows 10 Home"/>
-<img src=/Captures/3.png alt="Windows 10 Terminal"/>
 <img src=/Captures/4.png alt="Windows 10 Explorer"/>
 
 ## Starting 🚀
@@ -88,15 +85,12 @@ Set Execution-Policy Unrestricted
 
 _In the resources folder, leave the JSON settings of my profile, use it for the general configuration of the terminal, for the configuration of the different shells, CLI and command prompt that you have, and for the powershell and WSL color schemes. Compare it to your JSON settings and don't complicate your life copy and paste._
 
-<img src=/Captures/10.png alt="SchemesPS"/>
 <img src=/Captures/11.png alt="SchemesPS"/>
 <img src=/Captures/12.png alt="SchemesPS"/>
 
 _If all went well, the result is..._ 
 
 <img src=/Captures/13.png alt="Oh-my-posh"/>
-<img src=/Captures/14.png alt="Azure CLI"/>
-<img src=/Captures/15.png alt="CMD"/>
 
 ### Oh-my-zsh on Windows Subsystem for Linux ⚙️
 
